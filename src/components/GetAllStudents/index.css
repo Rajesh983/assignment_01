@@ -1,0 +1,115 @@
+table,th,tr,td{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+
+.table-view{
+    width: 460px;
+}
+
+@media screen and (min-width:900px) {
+    .table-view{
+        width: 800px;
+    }
+    .table-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    th{
+        height: 38px;
+    }
+    
+}
+
+.button-styles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.app-bg-container{
+    height: calc(100vh - 192px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.search-filter-container{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 460px;
+}
+
+@media screen and (min-width:900px) {
+    .search-filter-container{
+        width: 800px;
+    }
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-right: 3px;
+    width: 250px;
+    padding: 0;
+    height: 25px;
+    border-radius: 3px;
+}
+.search-box{
+    border-width: 0;
+    outline: none;
+    width: 225px;
+    height: 25px;
+}
+.search-icon{
+    background-color: lightblue;
+    height: 26px;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.drop-down{
+    height: 28px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.edit-btn{
+  border-width: 0;
+  background-color: lightgrey;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 3px;
+  height: 35px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.del-btn{
+  background-color: lightcoral;
+}

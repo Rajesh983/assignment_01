@@ -1,0 +1,22 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: #ffffff;
+}
+.all-btn{
+    border-width: 0;
+    background-color: #ffffff;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-radius: 3px;
+    color: black;
+    margin-right: 10px;
+    padding: 9px;
+    font-size: 14px;
+}
+.new-btn{
+    background-color: aqua;
+}
